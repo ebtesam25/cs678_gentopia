@@ -1,0 +1,61 @@
+(gentenv) [ehaque4@hop046 GentPool]$ python assemble.py my_scholar
+╭──────────────────────────────────────────────────────────────────────── Gentopia ────────────────────────────────────────────────────────────────────────╮
+│ Welcome to Gentopia!                                                                                                                                     │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+User: Find papers written by Ziyu Yao at George Mason University
+my_scholar: 
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  Response of my_scholar:  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ {"name":"search_author_by_name", "arguments":{"author":"Ziyu Yao, George Mason University","top_k":5}}                                                   ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+╭─────────────────────────────────────────────────────  Function Response of search_author_by_name:  ──────────────────────────────────────────────────────╮
+│ {'name': 'Ziyu Yao', 'uid': '4lYrMNUAAAAJ', 'affiliation': 'Assistant Professor, George Mason University', 'interests': ['Natural Language Processing',  │
+│ 'LLMs', 'Human-AI Interaction', 'Question Answering', 'Code Generation'], 'citation': 991}                                                               │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+my_scholar: 
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  Response of my_scholar:  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ {"name":"author_uid2paper", "arguments":{"uid":"4lYrMNUAAAAJ","sort_by":"year","top_k":5}}                                                               ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+╭────────────────────────────────────────────────────────  Function Response of author_uid2paper:  ────────────────────────────────────────────────────────╮
+│ {'title': 'CAR: Controllable Autoregressive Modeling for Visual Generation', 'pub_year': '2024', 'venue': 'arXiv preprint arXiv:2410.04671, 2024',       │
+│ 'citation': 0}                                                                                                                                           │
+│                                                                                                                                                          │
+│ {'title': 'DOTS: Learning to Reason Dynamically in LLMs via Optimal Reasoning Trajectories Search', 'pub_year': '2024', 'venue': 'arXiv preprint         │
+│ arXiv:2410.03864, 2024', 'citation': 0}                                                                                                                  │
+│                                                                                                                                                          │
+│ {'title': 'Navigating the Shortcut Maze: A Comprehensive Analysis of Shortcut Learning in Text Classification by Language Models', 'pub_year': '2024',   │
+│ 'venue': 'arXiv preprint arXiv:2409.17455, 2024', 'citation': 0}                                                                                         │
+│                                                                                                                                                          │
+│ {'title': 'A practical review of mechanistic interpretability for transformer-based language models', 'pub_year': '2024', 'venue': 'arXiv preprint       │
+│ arXiv:2407.02646, 2024', 'citation': 2}                                                                                                                  │
+│                                                                                                                                                          │
+│ {'title': 'An Investigation of Neuron Activation as a Unified Lens to Explain Chain-of-Thought Eliciting Arithmetic Reasoning of LLMs', 'pub_year':      │
+│ '2024', 'venue': 'ACL 2024, 2024', 'citation': 2}                                                                                                        │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+my_scholar: 
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  Response of my_scholar:  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ Here are the recent papers written by Ziyu Yao at George Mason University:                                                                               ┃
+┃                                                                                                                                                          ┃
+┃  1 CAR: Controllable Autoregressive Modeling for Visual Generation                                                                                       ┃
+┃     • Publication Year: 2024                                                                                                                             ┃
+┃     • Venue: arXiv preprint arXiv:2410.04671, 2024                                                                                                       ┃
+┃     • Citations: 0                                                                                                                                       ┃
+┃  2 DOTS: Learning to Reason Dynamically in LLMs via Optimal Reasoning Trajectories Search                                                                ┃
+┃     • Publication Year: 2024                                                                                                                             ┃
+┃     • Venue: arXiv preprint arXiv:2410.03864, 2024                                                                                                       ┃
+┃     • Citations: 0                                                                                                                                       ┃
+┃  3 Navigating the Shortcut Maze: A Comprehensive Analysis of Shortcut Learning in Text Classification by Language Models                                 ┃
+┃     • Publication Year: 2024                                                                                                                             ┃
+┃     • Venue: arXiv preprint arXiv:2409.17455, 2024                                                                                                       ┃
+┃     • Citations: 0                                                                                                                                       ┃
+┃  4 A practical review of mechanistic interpretability for transformer-based language models                                                              ┃
+┃     • Publication Year: 2024                                                                                                                             ┃
+┃     • Venue: arXiv preprint arXiv:2407.02646, 2024                                                                                                       ┃
+┃     • Citations: 2                                                                                                                                       ┃
+┃  5 An Investigation of Neuron Activation as a Unified Lens to Explain Chain-of-Thought Eliciting Arithmetic Reasoning of LLMs                            ┃
+┃     • Publication Year: 2024                                                                                                                             ┃
+┃     • Venue: ACL 2024, 2024                                                                                                                              ┃
+┃     • Citations: 2                                                                                                                                       ┃
+┃                                                                                                                                                          ┃
+┃ If you need more information or additional papers, feel free to ask!                                                                                     ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+User: 

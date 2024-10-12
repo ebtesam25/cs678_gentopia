@@ -1,0 +1,53 @@
+(gentenv) [ehaque4@hop046 GentPool]$ python assemble.py my_scholar
+╭──────────────────────────────────────────────────────────────────────── Gentopia ────────────────────────────────────────────────────────────────────────╮
+│ Welcome to Gentopia!                                                                                                                                     │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+User: Who are the most cited empirical software engineering researchers?
+my_scholar: 
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  Response of my_scholar:  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ {"name":"search_author_by_interests", "arguments":{"interests":"empirical software engineering","top_k":5}}                                              ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+╭───────────────────────────────────────────────────  Function Response of search_author_by_interests:  ───────────────────────────────────────────────────╮
+│ {'name': 'Barbara  Ann Kitchenham', 'uid': 'CQDOm2gAAAAJ', 'affiliation': 'Professor of Quantitative Software Engineering, Keele University',            │
+│ 'interests': ['Empirical Software Engineering', 'Software Engineering', 'Empirical Methods', 'Statistical methods', 'Meta-analysis'], 'citation': 64705} │
+│                                                                                                                                                          │
+│ {'name': 'V Basili', 'uid': 'B3C4aY8AAAAJ', 'affiliation': 'Professor Emeritus University of Maryland', 'interests': ['Empirical Software Engineering',  │
+│ 'Software'], 'citation': 48715}                                                                                                                          │
+│                                                                                                                                                          │
+│ {'name': 'Ahmed E. Hassan', 'uid': '9hwXx34AAAAJ', 'affiliation': 'Mustafa Prize Laureate, ACM/IEEE/NSERC Steacie Fellow, ACM Influential/IEEE …',       │
+│ 'interests': ['Mining Software Repositories', 'Software Analytics', 'Empirical Software Engineering', 'Software'], 'citation': 37069}                    │
+│                                                                                                                                                          │
+│ {'name': 'Claes Wohlin', 'uid': 'gGLdjasAAAAJ', 'affiliation': 'Professor Emeritus of Software Engineering, SERL-Sweden, Blekinge Institute of …',       │
+│ 'interests': ['Empirical Software Engineering', 'Software Quality', 'Evidence-based Software Engineering'], 'citation': 35102}                           │
+│                                                                                                                                                          │
+│ {'name': 'Per Runeson', 'uid': '7B58FysAAAAJ', 'affiliation': 'Professor of Software Engineering, Lund University, Sweden', 'interests': ['Software      │
+│ engineering', 'Empirical software engineering', 'Software testing', 'Open innovation', 'Digital Society'], 'citation': 29958}                            │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+my_scholar: 
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  Response of my_scholar:  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ Here are some of the most cited researchers in the field of empirical software engineering:                                                              ┃
+┃                                                                                                                                                          ┃
+┃  1 Barbara Ann Kitchenham                                                                                                                                ┃
+┃     • Affiliation: Professor of Quantitative Software Engineering, Keele University                                                                      ┃
+┃     • Citations: 64,705                                                                                                                                  ┃
+┃     • Research Interests: Empirical Software Engineering, Software Engineering, Empirical Methods, Statistical methods, Meta-analysis                    ┃
+┃  2 V Basili                                                                                                                                              ┃
+┃     • Affiliation: Professor Emeritus, University of Maryland                                                                                            ┃
+┃     • Citations: 48,715                                                                                                                                  ┃
+┃     • Research Interests: Empirical Software Engineering, Software                                                                                       ┃
+┃  3 Ahmed E. Hassan                                                                                                                                       ┃
+┃     • Affiliation: Mustafa Prize Laureate, ACM/IEEE/NSERC Steacie Fellow                                                                                 ┃
+┃     • Citations: 37,069                                                                                                                                  ┃
+┃     • Research Interests: Mining Software Repositories, Software Analytics, Empirical Software Engineering, Software                                     ┃
+┃  4 Claes Wohlin                                                                                                                                          ┃
+┃     • Affiliation: Professor Emeritus of Software Engineering, SERL-Sweden, Blekinge Institute of Technology                                             ┃
+┃     • Citations: 35,102                                                                                                                                  ┃
+┃     • Research Interests: Empirical Software Engineering, Software Quality, Evidence-based Software Engineering                                          ┃
+┃  5 Per Runeson                                                                                                                                           ┃
+┃     • Affiliation: Professor of Software Engineering, Lund University, Sweden                                                                            ┃
+┃     • Citations: 29,958                                                                                                                                  ┃
+┃     • Research Interests: Software engineering, Empirical software engineering, Software testing, Open innovation, Digital Society                       ┃
+┃                                                                                                                                                          ┃
+┃ These researchers have made significant contributions to the field and are highly cited in their work.                                                   ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+User: 

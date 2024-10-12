@@ -1,0 +1,77 @@
+(gentenv) [ehaque4@amd006 GentPool]$ python assemble.py pitch_deck_assist
+╭──────────────────────────────────────────────────────────────────────── Gentopia ────────────────────────────────────────────────────────────────────────╮
+│ Welcome to Gentopia!                                                                                                                                     │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+User: Create a pitch deck about the history of Juice Wrld. Make sure ot include lots of visuals.
+pitch_deck_assist: 
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ pitch_deck_assist ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ To create a pitch deck about the history of Juice Wrld, I will first gather detailed information about his life, career, and impact on music. I will     ┃
+┃ also search for relevant images to enhance the visual appeal of the presentation.                                                                        ┃
+┃                                                                                                                                                          ┃
+┃ Action: wikipedia                                                                                                                                        ┃
+┃ Action Input: "Juice Wrld"                                                                                                                               ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+╭───────────────────────────────────────────────────────────  Function Response of wikipedia:  ────────────────────────────────────────────────────────────╮
+│ Jarad Anthony Higgins (December 2, 1998 – December 8, 2019), known professionally as Juice Wrld (pronounced "juice world"; stylized as Juice WRLD), was  │
+│ an American rapper and singer-songwriter. Despite his career lasting for four years, he emerged as a leading figure in the emo rap and SoundCloud rap    │
+│ genres, which garnered mainstream attention during the mid-to-late 2010s. His stage name, which he said represents "taking over the world", was derived  │
+│ from the crime thriller film Juice (1992).                                                                                                               │
+│ Higgins began his career as an independent artist in 2015 under the name JuicetheKidd and signed a recording contract with Grade A Productions and       │
+│ Interscope Records in 2017. He gained recognition with the diamond-certified single "Lucid Dreams", which peaked at number two on the US Billboard Hot   │
+│ 100. It was included on his triple platinum debut album Goodbye & Good Riddance (2018), alongside the singles "All Girls Are the Same", "Lean wit Me",   │
+│ "Wasted", and "Armed and Dangerous", all of which charted on the Hot 100. He then collaborated with Future on the mixtape Wrld on Drugs (2018), and      │
+│ released his second album, Death Race for Love, in 2019; it contained the hit single "Robbery" and became Higgins' first number one debut on the US      │
+│ Billboard 200.                                                                                                                                           │
+│ Higgins died of a drug overdose on December 8, 2019. His first posthumous album, Legends Never Die (2020), matched chart records for most successful     │
+│ posthumous debut and for most U.S. top-ten entries from one album, while the single "Come & Go" (with Marshmello) became Higgins' second song to reach   │
+│ number two on the Hot 100. His second posthumous album, Fighting Demons, was released in 2021 alongside the documentary film Juice Wrld: Into the Abyss  │
+│ and contained the US top 20 single "Already Dead".                                                                                                       │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+pitch_deck_assist: 
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ pitch_deck_assist ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ I have gathered detailed information about Juice Wrld's life, career, and impact on music. Next, I will search for relevant images to enhance the visual ┃
+┃ appeal of the presentation.                                                                                                                              ┃
+┃                                                                                                                                                          ┃
+┃ Action: wikimedia_image                                                                                                                                  ┃
+┃ Action Input: "Juice Wrld"                                                                                                                               ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+╭────────────────────────────────────────────────────────  Function Response of wikimedia_image:  ─────────────────────────────────────────────────────────╮
+│ Title: File:Juice WRLD - Les Ardentes 2019 (cropped).jpg                                                                                                 │
+│ URL: https://upload.wikimedia.org/wikipedia/commons/3/35/Juice_WRLD_-_Les_Ardentes_2019_%28cropped%29.jpg                                                │
+│ Description: Photographed by Lexiou WesCudi                                                                                                              │
+│ Title: File:Juice WRLD Mausoleum.jpg                                                                                                                     │
+│ URL: https://upload.wikimedia.org/wikipedia/commons/9/9e/Juice_WRLD_Mausoleum.jpg                                                                        │
+│ Description: The mausoleum of Jarad Anthony Higgins (1998-2019), better known as Juice WRLD, in Blue Island, Illinois. Photo was taken on March 14,      │
+│ 2022.                                                                                                                                                    │
+│ Title: File:Juice Wrld - Legends Never Die Logo.png                                                                                                      │
+│ URL: https://upload.wikimedia.org/wikipedia/commons/8/83/Juice_Wrld_-_Legends_Never_Die_Logo.png                                                         │
+│ Description: Legends Never Die's logo, third album by Juice Wrld                                                                                         │
+│ Title: File:Juice Wrld Interview.png                                                                                                                     │
+│ URL: https://upload.wikimedia.org/wikipedia/commons/b/b5/Juice_Wrld_Interview.png                                                                        │
+│ Description: Juice Wrld during an interview with Hot 107.9.                                                                                              │
+│ Title: File:Juice Wrld VMAs.png                                                                                                                          │
+│ URL: https://upload.wikimedia.org/wikipedia/commons/c/cd/Juice_Wrld_VMAs.png                                                                             │
+│ Description: Juice Wrld at the VMAs                                                                                                                      │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+pitch_deck_assist: 
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ pitch_deck_assist ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ I have gathered detailed information about Juice Wrld's life, career, and impact on music, along with relevant images to enhance the visual appeal of    ┃
+┃ the presentation. Now, I will create the pitch deck using the information and visuals collected.                                                         ┃
+┃                                                                                                                                                          ┃
+┃                                                                                                                                                          ┃
+┃ Action: html_saver                                                                                                                                       ┃
+┃ Action Input: ```                                                                                                                                        ┃
+┃                                                                                                                                                          ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+╭───────────────────────────────────────────────────────────  Function Response of html_saver:  ───────────────────────────────────────────────────────────╮
+│ HTML code saved to pitch_deck.html                                                                                                                       │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+pitch_deck_assist: 
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ pitch_deck_assist ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ I have successfully created the pitch deck about the history of Juice Wrld, including detailed information and relevant visuals.                         ┃
+┃                                                                                                                                                          ┃
+┃ Final Answer: The pitch deck titled "The History of Juice Wrld" has been saved and is ready for viewing. You can download it using the link below:       ┃
+┃                                                                                                                                                          ┃
+┃ Download the Pitch Deck                                                                                                                                  ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+User: 

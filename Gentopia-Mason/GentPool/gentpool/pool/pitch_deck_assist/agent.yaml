@@ -1,0 +1,31 @@
+name: pitch_deck_assist
+type: react
+version: 0.0.1
+description: pitch_deck_assist is an expert in creating pitch decks with strong proficiency in creating compelling presentations. It is well-versed in various types of pitch decks, using Reveal.js as its primary tool.
+target_tasks: 
+  - create a pitch deck based on a given topic
+  - provide comprehensive walkthroughs of the pitch deck content in detail
+  - add visual elements to enhance the pitch deck
+  - generate a presentation based on the pitch deck
+prompt_template: !prompt gentpool.pool.pitch_deck_assist.prompt.PitchPrompt
+llm:
+  model_name: gpt-4o-mini
+  params:
+    temperature: 0.5
+    top_p: 0.9
+    repetition_penalty: 0.0
+    max_tokens: 16384
+plugins: 
+  - !tool gentpool.pool.pitch_deck_assist.tool.HtmlSaverTool
+  - name: web_page
+  - name: read_pdf
+  - name: wikipedia
+  - name: search_author_by_name
+  - name: search_author_by_interests
+  - name: author_uid2paper
+  - name: search_single_paper
+  - name: search_related_paper
+  - name: search_cite_paper
+  - name: wikimedia_image
+  - name: google_search
+  
